@@ -1,7 +1,8 @@
 """
 - Only need to check up to square root
 - Can start from 2
-- if past root return False
+- if past root return True
+- O(n**(1/2))
 """
 
 def is_prime(num):
